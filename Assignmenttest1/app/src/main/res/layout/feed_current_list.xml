@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+        Name: Umar Khalid
+        Matric Number: S1423449 -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:id="@+id/current_layout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/TitleHeader"
+        android:gravity="bottom"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="5dp"
+        tools:text="@string/TitleHeader" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/description"
+        android:gravity="top"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:padding="5dp"
+        tools:text="@string/description"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/pubDate"
+        android:gravity="top"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        tools:text="@string/pubDate"
+        />
+
+
+</LinearLayout>

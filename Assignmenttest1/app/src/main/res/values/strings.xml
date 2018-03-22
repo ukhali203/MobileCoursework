@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Umar Khalid - Coursework</string>
+    <string name="welcome_msg">Welcome to the Road Works App!</string>
+    <string name="incidents_btn">Current Incidents</string>
+    <string name="plannedRW_btn">Planned RoadWorks</string>
+
+    <string name="CurrentTitle"> Current Incidents</string>
+    <string name="TitleHeader"> Title</string>
+    <string name="description"> Description</string>
+    <string name="pubDate"> PublicationDate</string>
+    <string name="planned_list_title">Title:</string>
+    <string name="feedData">feed data will appear here</string>
+    <string name="roadworksDate">RoadWorks Start/End Date:</string>
+    <string name="descriptionTitle">Description:</string>
+    <string name="pubDateTitle">Publication Date:</string>
+    <string name="plannedRoadWorksTitle">Planned RoadWorks</string>
+    <string name="date">Select Date</string>
+
+</resources>
+
+    <!--
+            Name: Umar Khalid
+            Matric Number: S1423449 -->

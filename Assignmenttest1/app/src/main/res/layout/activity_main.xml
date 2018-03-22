@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+        Name: Umar Khalid
+        Matric Number: S1423449 -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_colour"
+    android:padding="10dp"
+    tools:context="mpdproject.gcu.me.org.assignmenttest1.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text= "@string/welcome_msg"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/CurrentIncidents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:paddingBottom="35dp"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:paddingTop="35dp"
+        android:text="@string/incidents_btn" />
+
+    <Button
+        android:id="@+id/PlannedRW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/CurrentIncidents"
+        android:layout_below="@+id/CurrentIncidents"
+        android:layout_marginTop="35dp"
+        android:paddingBottom="35dp"
+        android:paddingTop="35dp"
+        android:paddingEnd="44dp"
+        android:paddingStart="40dp"
+        android:text="@string/plannedRW_btn"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/MatricNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="22dp"
+        android:layout_marginEnd="12dp"
+        android:textAlignment="center"
+        android:text="Umar Khalid - S1423449"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+</RelativeLayout>

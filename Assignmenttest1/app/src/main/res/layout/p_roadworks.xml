@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+        Name: Umar Khalid
+        Matric Number: S1423449 -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainView"
+    android:layout_width="fill_parent"
+    android:fillViewport="true"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/list_background_colour"
+    tools:context="mpdproject.gcu.me.org.assignmenttest1.P_Roadworks">
+
+    <TextView
+        android:id="@+id/MatricNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Matric Number - S1423449"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/PlannedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/plannedRoadWorksTitle"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/getDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/date"/>
+
+    <ListView
+        android:id="@+id/planned_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+
+

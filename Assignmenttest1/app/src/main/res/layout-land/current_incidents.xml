@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+        Name: Umar Khalid
+        Matric Number: S1423449 -->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/list_background_colour"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/MatricNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Matric Number - S1423449"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/CurrentTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="@string/CurrentTitle"
+            />
+
+        <ListView
+            android:id="@+id/current_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+
+
+

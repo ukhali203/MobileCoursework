@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+        Name: Umar Khalid
+        Matric Number: S1423449 -->
+
+<resources>
+    <color name="colorPrimary">#0d636e</color>
+    <color name="colorPrimaryDark">#002f49</color>
+    <color name="colorAccent">#002f49</color>
+</resources>
